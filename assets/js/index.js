@@ -96,16 +96,16 @@ function finishGame (){
 
   switch (true) {
     case (performance >= 90):
-      message = "Excelente 😁";
+      message = "Excelente você salvou o Planeta Namekusei😁";
       break;
     case (performance >= 70):
-      message = "Muito bom 😅";
+      message = "Muito bom ainda da tempo de salvar o Planeta Namekusei 😅";
       break;
     case (performance >= 50):
-    message ="Bom "
+    message ="Bom, o Planeta Namekusei ainda pode ser salvo "
     break
     default:
-      message ="Pode Melhorar 🙁"
+      message ="Planeta Namekusei foi destruido!!! 🙁"
 
   };
 
