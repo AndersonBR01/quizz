@@ -136,17 +136,17 @@ const questions = [
   {
     question: "Quem e o filho Vegeta ?",
     answers: [
-      { text: "<Trunks>", correct: true },
-      { text: "<Gohan>", correct: false },
-      { text: "<Goten>", correct: false },
-      { text: "<Bills>", correct: false },
+      { text: "Trunks", correct: true },
+      { text: "Gohan", correct: false },
+      { text: "Goten", correct: false },
+      { text: "Bills", correct: false },
     ],
   },
   {
     question: "Qual o nome do Lendario Super Sayadin?",
     answers: [
-      { text: "<Trunks>", correct: false },
-      { text: "<Gohan>", correct: false },
+      { text: "Trunks", correct: false },
+      { text: "Gohan", correct: false },
       { text: "Goku", correct: false },
       { text: "Brolly", correct: true},
     ],
@@ -199,4 +199,64 @@ const questions = [
               { text: "morte de Goten", correct: false},
             ],
           },
+
+          {
+            question:"Qual das sagas abaixo não fazem parte do cânone da obra?",
+            answers:[
+            { text: "Dragon Ball Z", correct: false},
+            { text: "Dragon Ball Super", correct: false},
+            { text: "Dragon Ball GT", correct: true},
+            { text: "Dragon Ball Clássico", correct: false},
+            ],
+          },
+          {
+            question:"Qual o nome da forma animal de Goku?",
+            answers:[
+            { text: "Oozaru", correct: true },
+            { text: "Son Goku",correct: false },
+            { text: "Crazy Monkey",correct: false },
+            { text: "Hiyomary",correct: false},
+            ],
+          },
+          
+          {
+            question:"Qual a comida favorita de Bulma?",
+            answers:[
+            { text: "Lámen", correct: false},
+            { text: "Morango", correct: true},
+            { text: "Churrasco", correct: false}, 
+            { text: "Maça", correct: false},
+            ],
+          },
+          
+          {
+            question:"Quando se comemora o 'Dia do Goku' no Japão?",
+            answers:[
+            { text: "16 de Abril", correct: false},
+            { text: "09 de Março", correct: false},
+            { text: "10 de Fevereiro", correct: false },
+            { text: "09 de Maio", correct: true},
+            ],
+          },
+          
+          {
+            question:"Em qual episodio e capítulo do manga o Freeza aparece pela primeira vez?",
+            answers:[
+            { text: "Episodio 44 e capitulo 131", correct: true },
+            { text: "Episodio 36 e capitulo 120", correct: false},
+            { text: "Episodio 22 e capitulo 131", correct: false },
+            { text: "Episodio 98 e capitulo 180", correct: false},
+            ],
+          },
+          
+          {
+            question:"Qual o nome do Avô adotivo terráqueo de Goku?",
+            answers:[
+            { text: "Gorou", correct: false},
+            { text: "Gon", correct: false},
+            { text: "Gohan", correct: true },
+            { text: "Goiki", correct: false},
+            ],
+          },
+          
 ];

@@ -7,6 +7,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+h1 {
+    padding: 1rem;
 }
 
 .container{
@@ -83,10 +88,12 @@ body {
 
 .correct{
     background-color: green;
+   /* background-image: url(../imgs/correct.jpg);*/
 }
 
 .incorrect {
     background-color: red;
+   /* background-image: url(../imgs/incorrect.jpg);*/
 }
 
 .final-message{
